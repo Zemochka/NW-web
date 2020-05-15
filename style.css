@@ -1,0 +1,35 @@
+.header{
+    margin-bottom: 3%;
+}
+
+.img{
+	width: 100%;
+}
+
+.grid{
+    margin-left: 10%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto-fill, 600px);
+    grid-column-gap: 20%;
+    grid-row-gap: 1%;
+}
+
+.card{
+    border: 10px solid;
+    border-radius: 10px;
+
+}
+
+body{
+    background-image: url(img/background3.png);
+}
+
+.footer{
+    margin-top: 3%;
+    background: #fbb92f;
+    padding: 5%;
+    padding-left: 10%;
+    width: 100%;
+    font-size: 25pt;
+}
