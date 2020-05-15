@@ -22,11 +22,7 @@
 }
 
 .row{
-    margin-left: 17%;
-}
-
-.card-columns{
-    grid-gap: 50%;
+ display: flex;   
 }
 
 body{
