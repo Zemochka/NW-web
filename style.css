@@ -2,38 +2,42 @@
     margin-bottom: 3%;
 }
 
-.img{
+.card-img-top{
 	width: 100%;
-}
-
-.grid{
-    margin-left: 10%;
-    display:grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-template-rows: repeat(auto-fill, 600px);
-    grid-column-gap: 20%;
-    grid-row-gap: 1%;
 }
 
 .card{
     border: 10px solid;
     border-radius: 10px;
-
-}
-
-.row{
- display: flex;   
 }
 
 body{
     background-image: url(img/background3.png);
 }
 
+.card-columns{
+    margin-left: 10%
+}
+
 .footer{
-    margin-top: 20%;
+    margin-top: 0%;
     background: #fbb92f;
     padding: 5%;
     padding-left: 10%;
     width: 100%;
     font-size: 25pt;
+}
+
+#CN{
+    width: 65%;
+    height: 65%;
+}
+
+#PP{
+    height: 90%;
+    width: 90%;
+}
+
+.card-columns::after, ::before {
+    box-sizing: content-box;
 }
